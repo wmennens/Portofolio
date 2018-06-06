@@ -1,0 +1,510 @@
+@media only screen and (max-width: 1280px) {
+  .top-line {
+    height: 40px;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .top-line a {
+    margin-left: 100px;
+    text-decoration: none;
+    color: orange;
+  }
+  .top-line p, a {
+    float: left;
+    margin: 20px 20px;
+    position: fixed;
+  }
+  .top-block-left {
+    margin-top: 18%;
+      height: 10px;
+      width: 0px;
+      border: 26px solid black;
+      border-left: none;
+      border-right: none;
+      float: left;
+      animation-name: first;
+      animation-duration: 1.5s;
+      animation-fill-mode: forwards;
+  }
+  .top-block-right {
+    margin-top: 18%;
+    float: right;
+    height: 10px;
+    width: 0px;
+    border: 26px solid black;
+    border-left: none;
+    border-right: none;
+    animation-name: first;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes first {
+    0% {width: 0%}
+    50% {width: 1%}
+    100% {width: 50%}
+  }
+  .middle-circle {
+    color: black;
+    margin-top: 10%;
+    margin-left: 38.9%;
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 360px;
+    font-size: 850%;
+    position: absolute;
+  }
+  .middle-circle h1 {
+    margin: 15px;
+  }
+  .middle-circle:hover {
+    margin-top: 8%;
+    transition: 0.5s;
+  }
+  /*Index2*/
+  .wrapper {
+    transform: scale(0.8);
+  }
+  .dot {
+    width: 150px;
+    height: 150px;
+    border-radius: 360px;
+    background-color: black;
+    position: absolute;
+  }
+  .dot:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+    border: 4px solid orange;
+    border-radius: 360px;
+  }
+  .line {
+    width: 4px;
+    background-color: black;
+    position: absolute;
+  }
+  #line1 {
+    margin-left:20%;
+    margin-top:15%;
+    transform:rotate(326deg);
+    height: 200px;
+  }
+  #line2 {
+    margin-left:53%;
+    margin-top:17%;
+    transform:rotate(308deg);
+    height:320px;
+  }
+  #line3 {
+    margin-left:34%;
+    margin-top:20%;
+    transform:rotate(233deg);
+    height:150px;
+  }
+  #dot1 {
+    margin-left:10%;
+    margin-top:8%;
+  }
+  #dot2 {
+    margin-left:22%;
+    margin-top:25%;
+  }
+  #dot3 {
+    margin-left:37%;
+    margin-top:15%;
+  }
+  #dot4 {
+    margin-left:60%;
+    margin-top:32%;
+  }
+  .part-1 {
+    width: 200%;
+    height: 760px;
+    background-color: white;
+  }
+  .part-1-second {
+    width: 100%;
+    margin-left: 100%;
+    height: 760px;
+    position: absolute;
+  }
+  .secondPage {
+    position: absolute;
+    margin: 44% 47%;
+    font-size: 150%;
+    width: 100px;
+  }
+  .secondPage:hover {
+    transition: 0.5s;
+    color: orange;
+  }
+  .secondPageBack {
+    position: absolute;
+    margin: -170px 50px;
+    font-size: 150%;
+  }
+  .secondPageBack:hover {
+    transition: 0.5s;
+    color: orange;
+  }
+  /*index 3*/
+  .work1 {
+    width: 100%;
+    height: 760px;
+    margin-left: 100%;
+    position: absolute;
+    background-color: transparent;
+  }
+  .work2 {
+    width: 100%;
+    height: 760px;
+    margin: 50% 100%;
+    position: absolute;
+    background-color: transparent;
+  }
+  .contact {
+    width: 50%;
+    position: absolute;
+    height: 380px;
+    background-color: transparent;
+  }
+  .contact i {
+    width: 100px;
+    height: 380px;
+    margin: 70px 310px;
+    position: absolute;
+    font-size: 100px;
+  }
+  .contact i:hover {
+    margin-top: 40px;
+    color: orange;
+    transition: 0.5s
+  }
+  .contactTxt {
+    margin: 30% 45%;
+    font-size: 200%;
+  }
+  .workBack {
+    margin: 47% 7%;
+    position: absolute;
+    font-size:150%;
+    animation-name: fade;
+    animation-fill-mode: forwards;
+    animation-duration: 1.5s;
+  }
+  .workBack:hover {
+    transition: 0.5s;
+    color: orange;
+  }
+  .workNext {
+    margin: 47% 87%;
+    position: absolute;
+    font-size:150%;
+    animation-name: fade;
+    animation-fill-mode: forwards;
+    animation-duration: 1.5s;
+  }
+  .workNext:hover {
+    transition: 0.5s;
+    color: orange;
+  }
+  @keyframes fade {
+    0% {opacity: 0;transition: 2s}
+    100% {opacity: 1;transition: 3s}
+  }
+  #mailText {
+    width: 100px;
+    margin: -340px 290px;
+    position: absolute;
+    font-size: 150%;
+    opacity: 0;
+  }
+  #phoneText {
+    margin: 100px 300px;
+    position: absolute;
+    font-size: 150%;
+    opacity: 0;
+  }
+  #mobileText {
+    margin: 90px 260px;
+    position: absolute;
+    font-size: 150%;
+    width: 200px;
+    opacity: 0;
+  }
+  #addressText {
+    margin: 50px 320px;
+    position: absolute;
+    font-size: 150%;
+    opacity: 0;
+  }
+  #contactMail {
+  }
+  #contactPhone {
+    margin:0% 50%;
+  }
+  #contactMobile {
+    margin:25% 0%;
+  }
+  #contactAddress {
+    margin:25% 50%;
+  }
+  #mail {
+    margin-left:270px;
+  }
+  #phone {
+    margin-left:310px;
+  }
+  #mobile {
+    margin-left:300px;
+  }
+  #address {
+    margin-left: 285px;
+  }
+  .topText {
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    margin: 70px 50px;
+    font-size: 300%;
+    color: transparent;
+    animation-name: txt;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes txt {
+    0% {color: transparent}
+    100% {color: black;}
+  }
+  .txtDiv {
+    width: 0px;
+    height: 70px;
+    background-color: orange;
+    color: transparent;
+    animation-name: top;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+  }
+  @keyframes top {
+    0% {width: 0px;}
+    25% {width: 300px;}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(0);width: 300px;}
+  }
+  .txtTxt {
+    margin: 7px 65px;
+    position: absolute;
+  }
+  .image1 {
+    width: 600px;
+    height: 400px;
+    background-image: url();
+    background-size: cover;
+    margin-top: 200px;
+    position: absolute;
+    opacity: 0;
+    margin-left: -1000px;
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    animation-duration: 1.5s;
+  }
+  @keyframes fadeIn {
+    0% {margin-left: -500px;opacity: 0;}
+    100% {margin-left: 70px;opacity: 1;}
+  }
+  .txt1 {
+    width: 300px;
+    height: 400px;
+    opacity: 0;
+    margin-top: 200px;
+    margin-left: 850px;
+    position: absolute;
+    animation-name: fadeInBottom;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    animation-duration: 1.5s;
+  }
+  @keyframes fadeInBottom {
+    0% {margin-top: 500px;opacity: 0;}
+    100% {margin-top: 200px;opacity: 1;}
+  }
+  .secondImage {
+    width: 0%;
+    height: 760px;
+    background-color: blue;
+    animation-name: image-left;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+  }
+  @keyframes image-left {
+    0% {width: 0;}
+    100% {width: 50%}
+  }
+  .secondTxt {
+    float: right;
+    margin-right: 200px;
+    margin-top: -500px;
+    opacity: 0;
+    animation-name: txt-right;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-duration: 1.5s;
+  }
+  @keyframes txt-right {
+    0% {opacity: 0;}
+    100% {opacity: 1}
+  }
+   /*part 2*/
+   .part-2-wrapper {
+     width: 100%;
+     height: 760px;
+     background-color: white;
+   }
+  .line-partTwo {
+    width: 300px;
+    height: 10px;
+    opacity: 0;
+    background-color: orange;
+    position: absolute;
+    animation-name: house;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+  }
+  @keyframes house {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  #linePart1 {
+    margin:40%40%;
+  }
+  #linePart2 {
+    transform:rotate(90deg);
+    margin:28.7%51.3%;
+    animation-delay: 1s;
+  }
+  #line-right {
+    transform:rotate(45deg);
+    margin:11.2%48.8%;
+    width:215px;
+    animation-name: right;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+  }
+  @keyframes right {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  #line-left {
+    transform:rotate(135deg);
+    margin:11.3%37.4%;
+    width:215px;
+    animation-name: left;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-duration: 1s;
+  }
+  @keyframes left {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  #linePart5 {
+    transform:rotate(270deg);
+    margin:28.7%28.2%;
+    animation-delay: 2.5s;
+  }
+  .partTwoTxt {
+    margin-left: 16%;
+    font-size: 1200%;
+    opacity: 0;
+    position: absolute;
+    animation-name: partTwoText;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    animation-duration: 1s;
+  }
+  @keyframes partTwoText {
+    0% {opacity: 0;margin-top: 100px}
+    100% {opacity: 1;margin-top: -500px;}
+  }
+  .informText {
+    margin: -600px 90px;
+    position: absolute;
+    width: 300px;
+    font-size: 150%;
+    animation-name: fadeInTop;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+  }
+  #pageNumber1 {
+    margin: 40px 90px;
+  }
+  #pageNumber2 {
+    margin: 50px 90px;
+  }
+  .pageNumber {
+    position: absolute;
+    text-decoration: underline;
+    font-size: 600%;
+    margin: -720px 90px;
+    color: orange;
+    animation-name: fadeInTop;
+    animation-fill-mode: forwards;
+    animation-duration: 1.5s;
+  }
+  @keyframes fadeInTop {
+    0% {opacity: 0; margin: -50px 90px;}
+    100% {opacity: 1;}
+  }
+  .toWork1 {
+    margin: -180px 70px;
+    width: 200px;
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+    animation-duration: 1.5s;
+  }
+  .toWork1:hover {
+    transition: 0.5s;
+    color: orange;
+  }
+  .workImage {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    margin: 10% 50%;
+    background-color: green;
+    animation-name: fadeInBottomFix;
+    animation-duration: 1.5s;
+  }
+  .workText {
+    margin: 21% 22%;
+    position: absolute;
+    animation-name: fadeInBottomFix2;
+    animation-duration: 1.5s;
+  }
+  .workLinks {
+    width: 300px;
+    height: 90px;
+    margin: 14% 22%;
+    color: orange;
+    position: absolute;
+    background-color: white;
+    animation-name: fadeInBottomFix3;
+    animation-duration: 1.55s;
+  }
+  @keyframes fadeInBottomFix {
+    0% {margin-top: 800px;opacity: 0;}
+    100% {margin-top: 10%;opacity: 1;}
+  }
+  @keyframes fadeInBottomFix2 {
+    0% {margin-top: 800px;opacity: 0;}
+    100% {margin-top: 21%;opacity: 1;}
+  }
+  @keyframes fadeInBottomFix3 {
+    0% {margin-top: 800px;opacity: 0;}
+    100% {margin-top: 14%;opacity: 1;}
+  }
+
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link onclick="window.location.reload()" rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/mob/mobStyle.css">
+    <link rel="stylesheet" href="css/tabStyle.css">
+    <link rel="stylesheet" href="css\font-awesome-4.7.0\css\font-awesome.min.css">
+    <title></title>
+  </head>
+  <body class="body" id="body">
+    <div class="quotes-slides">
+      <div class="quotes">
+        <h1>Fullstack developer</h1>
+      </div>
+      <div class="quotes">
+        <h1>Student Mediacollege MBO-4</h1>
+      </div>
+      <div class="quotes">
+        <h1>Media developer</h1>
+      </div>
+    </div>
+    <div class="topImage">
+      <div class="opacity">
+      </div>
+    </div>
+    <div class="top-line" id="topLine">
+      <a href="index.html">WesleyMennens.</a>
+      <p>Portofolio</p>
+      <li><a class="fromCenter" href="#wrapper" style="margin-left:-100px;">Thuis</a></li>
+      <li><a class="fromCenter" href="#part-1" style="margin-left:0px;">Over</a></li>
+      <li><a class="fromCenter" href="#part-2" style="margin-left:100px;">Proj</a></li>
+      <li><a class="fromCenter" href="#part-3" style="margin-left:200px;">Cont</a></li>
+    </div>
+    <div class="wrapper" id="wrapper">
+      <div class="line" id="line1"></div>
+      <div class="line" id="line2"></div>
+      <div class="line" id="line3"></div>
+      <div class="dot" id="dot1" onclick="pageScroll()"><p class="dotTxt1">OVER</p></div>
+      <div class="dot" id="dot2" onclick="test1()"><p class="dotTxt">PROJECTS</p></div>
+      <div class="dot" id="dot3" onclick="pageScroll3()"><p class="dotTxt">CONTACT</p></div>
+      <div class="dot" id="dot4" onclick="pageScroll4()"><p class="dotTxt4">QUICKVIEW</p></div>
+    </div>
+    <div class="part-1" id="part-1" style="background-color:white;">
+        <div class="part-1-second">
+          <div class="secondImage" id="secondImage"></div>
+          <p class="secondTxt"><span style="color:orange;font-size:130%;">W</span>ie ik ben?<br>
+            Mijn naam is Wesley Mennens, ik ben 18 jaar.<br>
+            Ik ben geboren in Amsterdam en woon daar nog steeds.<br>
+            Ik studeer nu aan het <span style="color:orange;">Mediacollege Amsterdam</span> ik<br>
+            volg daar een MBO-4 studie.<br>
+            Ik zit in het tweede jaar van de opleiding <span style="color:orange;">media-development</span>.
+          </p>
+          <a class="secondPageBack" onclick="secondPageBack()">Terug</a>
+        </div>
+        <div class="part-wrap" id="partWrap">
+          <div class="topText">
+            <p class="txtTxt">OVER</p>
+            <div class="txtDiv"></div>
+          </div>
+          <div class="image1" id="image1"></div>
+          <p class="txt1" id="txt1"><span style="color:orange;font-size:130%;">W</span>at ik doe?<br>
+            Ik ben een website ontwikkelaar.<br>
+            Ik hou zelf meer van front-end maar ben niet bang voor wat back-end.<br>
+            Ik leer momenteel zelf voor <span style="color:orange;">NODE.JS</span> en <span style="color:orange;">Mongodb</span>.<br>
+            Ik ben bekend met:
+            <span style="color:orange;">
+              <br>CSS <br>HTML <br>JAVASCRIPT <br>Wordpress <br>PHP<br> en MYSQL
+            </span>.
+          </p>
+          <p class="arrow" onclick="pageScroll2()"></p>
+          <a class="secondPage" onclick="secondPage()">Meer Info</a>
+        </div>
+    </div>
+    <div class="part-1" id="part-2">
+      <div class="work1">
+        <p class="pageNumber" id="pageNumber1">02</p>
+        <div class="workLinks">
+        </div>
+        <p class="workText">
+          <strong>Mijn projecten</strong><br><br>
+          Hier vind u een aantal projecten,<br>
+          met voorbeeld code en de link naar de site zelf.<br>
+          Klik op een van de links om de projecten te bekijken.
+        </p>
+        <div class="workImage" onclick="toSee()">
+          <h1>FRONT-END</h1>
+        </div>
+        <div class="workImage2" onclick="toSee()">
+          <h1>BACK-END</h1>
+        </div>
+        <p class="workBack" onclick="workBack()">Terug</p>
+      </div>
+      <div class="part-2-wrapper" id="part2Wrapper">
+        <div class="line-partTwo" id="linePart1"></div>
+        <div class="line-partTwo" id="linePart2"></div>
+        <div class="line-partTwo" id="line-right"></div>
+        <div class="line-partTwo" id="line-left"></div>
+        <div class="line-partTwo" id="linePart5"></div>
+      </div>
+      <p class="partTwoTxt">PROJECTS</p>
+      <p class="pageNumber" id="pageNumber">01</p>
+      <p class="informText">Om meer te weten tekomen klik op lees meer!</p>
+      <h1 class="toWork1" onclick="toWork()">Lees meer...</h1>
+    </div>
+    <div class="part-1" id="part-3" style="background-color:white;">
+        <p class="cntInfo">Klik op de pictogrammen voor informatie</p>
+        <div class="contact" id="contactMail">
+          <i class="fa fa-envelope-o" id="mail" aria-hidden="true" onclick="mailInput()"></i>
+          <p class="contactTxt">Mail</p>
+          <p id="mailText">
+            Mail:<br>
+            wmennens@hotmail.com
+         </p>
+        </div>
+        <div class="contact" id="contactPhone">
+          <p id="phoneText">
+            Nummer:<br>
+            -0643868855
+         </p>
+          <i class="fa fa-phone" id="phone" onclick="phoneInput()" aria-hidden="true"></i>
+          <p class="contactTxt">Telefoon</p>
+        </div>
+        <div class="contact" id="contactMobile">
+          <p id="mobileText">
+            <a class="link" href="https://www.linkedin.com/feed/">Linkdin<br></a>
+            <a class="link" href="https://github.com/wmennens">Git-hub</a>
+          </p>
+          <i class="fa fa-mobile" id="mobile" onclick="mobileInput()" aria-hidden="true"></i>
+          <p class="contactTxt" style="margin-left:36%;">Social-Media</p>
+        </div>
+        <div class="contact" id="contactAddress">
+          <p id="addressText">
+            Nederland, Amsterdam<br>
+            1056 DA<br>
+          </p>
+          <i class="fa fa-address-card-o" id="address" onclick="addressInput()" aria-hidden="true"></i>
+          <p class="contactTxt">Adres</p>
+        </div>
+    </div>
+    <div class="part-1" id="part-4" style="background-color:white;">
+      <div class="quickView">
+        <h1><span style="color:orange;font-size: 130%;">W</span>ie ik ben,<span style="color:orange;font-size: 130%;">W</span>at ik doe.</h1>
+        <p>
+          Ik ben Wesley Mennens ik ben 18 jaar en woon in Amsterdam.<br>
+          Ik studeer <span style="color:orange;">media-development</span> aan het <span style="color:orange">Mediacollege Amsterdam</span>.<br>
+          Ik zit in mijn 2e jaar van de opleiding.<br>
+          Ik ben bekend met:
+                     <span style="color:orange;">
+                        <br>CSS <br>HTML <br>JAVASCRIPT <br>Wordpress <br>PHP<br> en MYSQL<br>
+                      </span>
+          Hier onder als u op een van de links klikt,<br>
+          vind u een aantal projecten.
+        </p>
+        <div class="workImage" onclick="toSee()" style="margin:5%9%;">
+          <h1>FRONT-END</h1>
+        </div>
+        <div class="workImage2" onclick="toSee2()" style="margin-top:5%;">
+          <h1>BACK-END</h1>
+        </div>
+      </div>
+    </div>
+    <script src="js/change.js"></script>
+    <script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+    <script src="js/textSlide.js"></script>
+    <script src="js/pageScroll.js"></script>
+    <script src="js/linkScroll.js"></script>
+  </body>
+</html>

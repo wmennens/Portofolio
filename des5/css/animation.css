@@ -1,0 +1,301 @@
+.topText {
+  width: 300px;
+  height: 70px;
+  position: absolute;
+  margin: 70px 50px;
+  font-size: 300%;
+  color: transparent;
+  animation-name: txt;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes txt {
+  0% {color: transparent}
+  100% {color: black;}
+}
+.txtDiv {
+  width: 0px;
+  height: 70px;
+  background-color: orange;
+  color: transparent;
+  animation-name: top;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+@keyframes top {
+  0% {width: 0px;}
+  25% {width: 300px;}
+  50% {transform: scale(1.2);}
+  100% {transform: scale(0);width: 300px;}
+
+}
+
+.txtTxt {
+  margin: 7px 65px;
+  position: absolute;
+}
+.image1 {
+  width: 600px;
+  height: 400px;
+  background-image: url(image/code.jpg);
+  background-size: cover;
+  margin-top: 170px;
+  position: absolute;
+  opacity: 0;
+  margin-left: -1000px;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  animation-duration: 1.5s;
+}
+@keyframes fadeIn {
+  0% {margin-left: -500px;opacity: 0;}
+  100% {margin-left: 70px;opacity: 1;}
+}
+.txt1 {
+  width: 300px;
+  height: 400px;
+  opacity: 0;
+  margin-top: 200px;
+  margin-left: 850px;
+  position: absolute;
+  animation-name: fadeInBottom;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  animation-duration: 1.5s;
+}
+@keyframes fadeInBottom {
+  0% {margin-top: 500px;opacity: 0;}
+  100% {margin-top: 200px;opacity: 1;}
+}
+.secondImage {
+  width: 0%;
+  height: 760px;
+  padding-left: 40px;
+  padding-bottom: 2px;
+  background-image: url(image/eigen.PNG);
+  background-size: cover;
+  animation-name: image-left;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+@keyframes image-left {
+  0% {width: 0;}
+  100% {width: 50%}
+}
+.secondTxt {
+  float: right;
+  margin-right: 100px;
+  margin-top: -500px;
+  opacity: 0;
+  animation-name: txt-right;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  animation-duration: 1.5s;
+}
+@keyframes txt-right {
+  0% {opacity: 0;}
+  100% {opacity: 1}
+}
+ /*part 2*/
+ .part-2-wrapper {
+   width: 100%;
+   height: 760px;
+   background-color: white;
+ }
+.line-partTwo {
+  width: 350px;
+  height: 10px;
+  opacity: 0;
+  background-color: orange;
+  position: absolute;
+  animation-name: house;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+@keyframes house {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+#linePart1 {
+  margin:39.9%40%;
+}
+#linePart2 {
+  transform:rotate(90deg);
+  margin:28.8%51.2%;
+  animation-delay: 1s;
+}
+#line-right {
+  transform:rotate(45deg);
+  margin:11.7%48.7%;
+  width:250px;
+  animation-name: right;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+  animation-duration: 1s;
+}
+@keyframes right {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+#line-left {
+  transform:rotate(135deg);
+  margin:11.7%37.3%;
+  width:250px;
+  animation-name: left;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  animation-duration: 1s;
+}
+@keyframes left {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+#linePart5 {
+  transform:rotate(270deg);
+  margin:28.8%28.3%;
+  animation-delay: 2.5s;
+}
+.arrow {
+  width: 50px;
+  height: 50px;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  transform: rotate(225deg);
+  margin-top: 560px;
+  margin-left: 100px;
+  position: absolute;
+  animation-name: turn;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes turn {
+  100% {margin-top:600px;}
+}
+.partTwoTxt {
+  margin-left: 22%;
+  font-size: 1200%;
+  opacity: 0;
+  position: absolute;
+  animation-name: partTwoText;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  animation-duration: 1s;
+}
+@keyframes partTwoText {
+  0% {opacity: 0;margin-top: 100px}
+  100% {opacity: 1;margin-top: -450px;}
+}
+.informText {
+  margin: -530px 90px;
+  position: absolute;
+  width: 300px;
+  font-size: 150%;
+  animation-name: fadeInTop;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+#pageNumber {
+  margin-top: -710px;
+}
+.pageNumber {
+  position: absolute;
+  text-decoration: underline;
+  font-size: 800%;
+  margin: 40px 90px;
+  color: orange;
+  animation-name: fadeInTop;
+  animation-fill-mode: forwards;
+  animation-duration: 1.5s;
+}
+@keyframes fadeInTop {
+  0% {opacity: 0; margin: -50px 90px;}
+  100% {opacity: 1;}
+}
+.toWork1 {
+  margin: -120px 70px;
+  width: 200px;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  animation-duration: 1.5s;
+}
+.toWork1:hover {
+  transition: 0.5s;
+  color: orange;
+}
+.workImage {
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  margin: 5% 53%;
+  background-color: lightgrey;
+  animation-name: fadeInBottomFix;
+  animation-duration: 1.5s;
+}
+.workImage :hover {
+  background-color: orange;
+  padding-left: 192px;
+  padding-top: 120px;
+  padding-bottom: 144px;
+  margin: 0;
+}
+.workImage h1{
+  margin: 20% 32%;
+}
+.workImage2 {
+  background-color: lightgrey;
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  margin: 26% 53%;
+  animation-name: fadeInBottomFix;
+  animation-duration: 1.5s;
+}
+.workImage2 :hover {
+  background-color: orange;
+  padding-left: 198px;
+  padding-top: 120px;
+  padding-bottom: 144px;
+  margin: 0;
+}
+.workImage2 h1 {
+  margin: 20% 33%;
+}
+#workImage2 {
+  background-image: url(image/port.png);
+  background-size: cover;
+}
+.workText {
+  margin: 20% 22%;
+  position: absolute;
+  animation-name: fadeInBottomFix2;
+  animation-duration: 1.5s;
+}
+.workLinks {
+  width: 300px;
+  height: 90px;
+  margin: 14% 22%;
+  position: absolute;
+  animation-name: fadeInBottomFix3;
+  animation-duration: 1.55s;
+}
+@keyframes fadeInBottomFix {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@keyframes fadeInBottomFix2 {
+  0% {margin-top: 800px;opacity: 0;}
+  100% {margin-top: 20%;opacity: 1;}
+}
+@keyframes fadeInBottomFix3 {
+  0% {margin-top: 800px;opacity: 0;}
+  100% {margin-top: 14%;opacity: 1;}
+}
+.changeText {
+  color: white;
+  position: absolute;
+  margin: 20% 28%;
+  font-size: 400%;
+  font-style: oblique;
+}

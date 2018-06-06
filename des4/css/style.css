@@ -1,0 +1,424 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1d3c4f;
+}
+@font-face {
+    font-family: disrupt;
+    src: url(myFont.ttf);
+}
+.header {
+    width: 100%;
+    height: 782px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 850px;
+    z-index: 1;
+    position: absolute;
+}
+li {
+    list-style-type: none;
+    float: left;
+    padding: 15px 30px;
+}
+.header-link {
+    text-decoration: none;
+    font-size: 150%;
+    font-family: disrupt;
+    color: white;
+    border-bottom: 4px solid transparent;
+}
+.header-link:hover {
+    transition: 1s;
+    color: transparent;
+    border-bottom: 4px solid white;
+}
+h1 {
+    margin: 0;
+    margin-left: 30%;
+    margin-top: 12%;
+    position: absolute;
+    width: 40%;
+    text-align: center;
+    font-size: 1200%;
+    font-family: disrupt;
+    color: white;
+}
+.side-menu {
+    width: 40px;
+    height: 200px;
+    right: 0;
+    margin-top: 250px;
+    position: fixed;
+    margin-right: 10px;
+    z-index: 1;
+}
+.side-menuButton {
+    text-decoration: none;
+    color: white;
+    font-size: 200%;
+    font-family: disrupt;
+}
+.side-menuButton:focus {
+    color: black;
+}
+.arrow {
+    width: 40px;
+    height: 40px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    transform: rotate(45deg);
+    position: absolute;
+    border-color: white;
+    margin-left: 48.5%;
+    animation-name: arrow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: 2s;
+}
+@keyframes arrow {
+    0% {
+        margin-top: 600px;
+        opacity: 0;
+    }
+    100% {
+        margin-top: 630px;
+        rotationX: 360deg;
+        opacity: 1;
+    }
+}
+@media (max-width:480px) {
+    html, body {
+        width: 320px;
+    }
+    .header {
+        height: 480px;
+        width: 320px;
+    }
+    ul {
+        margin-left: 0;
+    }
+    li {
+        list-style-type: none;
+        float: left;
+        padding: 15px;
+    }
+    .header-link {
+        font-size: 70%;
+    }
+    .header-link:hover {
+        transition: 1s;
+        color: transparent;
+        border-bottom: 4px solid white;
+    }
+    h1 {
+        font-size: 700%;
+        margin-left: 28%;
+        margin-top: 30%;
+    }
+    .side-menu {
+        width: 20px;
+        height: 100px;
+        margin-top: 100px;
+
+    }
+    .side-menuButton {
+        font-size: 100%;
+    }
+    .arrow {
+        width: 40px;
+        height: 40px;
+        border-bottom: 2px solid black;
+        border-right: 2px solid black;
+        transform: rotate(45deg);
+    }
+}
+.info {
+    color: white;
+    width: 100%;
+    height: 782px;
+}
+.i {
+    margin: 0;
+    position: relative;
+    font-size: 700%;
+    float: left;
+    padding-left: 500px;
+    font-family: disrupt;
+}
+.n {
+    margin: 0;
+    position: relative;
+    font-size: 700%;
+    float: left;
+    padding-left: 50px;
+    font-family: disrupt;
+}
+.f {
+    margin: 0;
+    position: relative;
+    font-size: 700%;
+    float: left;
+    padding-left: 50px;
+    font-family: disrupt;
+}
+.o {
+    margin: 0;
+    position: relative;
+    font-size: 700%;
+    float: left;
+    padding-left: 50px;
+    font-family: disrupt;
+}
+.info-pic {
+    position: absolute;
+    width: 303px;
+    height: 300px;
+    background-image: url(media.jpg);
+    background-size: cover;
+    margin-top: 220px;
+    margin-left: 20%;
+
+}
+.info-text   {
+    width: 303px;
+    height: 200px;
+    font-family: Arial;
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 540px;
+}
+.info-pic2 {
+    position: absolute;
+    width: 303px;
+    height: 300px;
+    background-color: white;
+    margin-top: 220px;
+    margin-left: 60%;
+}
+.info-text2   {
+    width: 303px;
+    height: 200px;
+    margin-left: 60%;
+    font-family: Arial;
+    position: absolute;
+    margin-top: 560px;
+}
+@media (max-width:480px) {
+    .info {
+        height: 1100px;
+        width: 320px;
+    }
+    .i {
+        font-size: 200%;
+        padding-left: 90px;
+        padding-top: 20px;
+    }
+    .n {
+        font-size: 200%;
+        padding-left: 10px;
+        font-family: disrupt;
+        padding-top: 20px;
+    }
+    .f {
+        font-size: 200%;
+        padding-left: 10px;
+        font-family: disrupt;
+        padding-top: 20px;
+    }
+    .o {
+        font-size: 200%;
+        padding-left: 10px;
+        font-family: disrupt;
+        padding-top: 20px;
+    }
+    .info-pic {
+        top: 600px;
+        margin: 0;
+        width: 100%;
+        height: 300px;
+
+    }
+    .info-text   {
+        top: 920px;
+        left: 4px;
+        margin: 0;
+        width: 100%;
+        height: 300px;
+    }
+    .info-pic2 {
+        top: 1120px;
+        margin: 0;
+        width: 100%;
+        height: 300px;
+    }
+    .info-text2   {
+        top: 1440px;
+        left: 4px;
+        margin: 0;
+        width: 100%;
+        height: 300px;
+    }
+}
+.work {
+    width: 100%;
+    height: 732px;
+    color: white;
+}
+#work-side-text {
+    position: absolute;
+    transform: rotate(90deg);
+    font-family: disrupt;
+    font-size: 180px;
+    margin-top: 5px;
+    transform-origin: 20%;
+}
+.work-toShowCase {
+    width: 1219px;
+    height: 100%;
+    margin-left: 300px;
+}
+.work-toShow {
+    height: 300px;
+    width: 270px;
+    background-image: url(media.jpg);
+    background-size: cover;
+    float: left;
+    margin: 32px 50px;
+}
+.toShowCover {
+    height: 100%;
+    width: 100%;
+    background-color: #d6d9db;
+    opacity: 0.5;
+}
+.toShow-see {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 103px 88px;
+    position: absolute;
+}
+.work-link {
+    font-family: disrupt;
+    text-decoration: none;
+    top: 30px;
+    position: relative;
+    color: #1d3c4f;
+}
+.toShow-see:hover {
+    width: 120px;
+    height: 120px;
+    margin: 83px 68px;
+    font-size: 200%;
+    transition: 1s;
+    border-bottom: none;
+    border-top: none;
+    transform: rotate(360deg);
+}
+@media (max-width:480px) {
+    .work {
+        width: 320px;
+        height: 2300px;
+        color: white;
+    }
+    #work-side-text {
+        font-size: 100px;
+        margin-top: 100px;
+        transform-origin: 50%;
+        position: relative;
+
+    }
+    .work-toShowCase {
+        width: 320px;
+        height: 100%;
+        top: 2050;
+        margin: 0;
+        position: absolute;
+    }
+    .work-toShow {
+        height: 300px;
+        width: 100%;
+        margin: 0;
+    }
+    .toShow-see {
+        width: 90px;
+        height: 90px;
+        border-radius: 90px;
+        border: 2px solid black;
+        text-align: center;
+        margin: 83px 110px;
+        position: absolute;
+    }
+    .toShow-see:hover {
+        width: 120px;
+        height: 120px;
+        margin: 83px 68px;
+        font-size: 200%;
+        transition: 1s;
+        border-bottom: none;
+        border-top: none;
+        transform: rotate(360deg);
+    }
+}
+.contact {
+    width: 100%;
+    height: 733px;
+    color: white;
+}
+.tree {
+    background-image: url(shaded-tree.png);
+    background-size: cover;
+    width: 100%;
+    height: 733px;
+    position: absolute;
+}
+.contact-info {
+    margin-left: 40%;
+    margin-top: 20%;
+    position: absolute;
+}
+.contact-text {
+    font-family: Arial;
+    font-size: 160%;
+    margin: 0;
+}
+.contact-text-write {
+    font-family: Arial;
+    width: 220px;
+    font-size: 200%;
+    margin: 0;
+    overflow: hidden;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    animation:
+            typing 1.5s steps(40, end),
+            knipper .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 180px }
+}
+@keyframes knipper {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+@media (max-width:480px) {
+    .contact {
+        width: 320px;
+        height: 383px;
+    }
+    .contact-info {
+        margin-left: 2.5%;
+        margin-top: 15%;
+    }
+    .contact-text {
+        font-family: Arial;
+        font-size: 170%;
+        margin: 0;
+    }
+}

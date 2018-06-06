@@ -1,0 +1,14 @@
+.header {
+    margin: 0;
+    padding: 0;
+    height: 742px;
+}
+.background-image {
+    width: 105.5%;
+    height: 104.5%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: url(code-pic1.jpeg) no-repeat left center / cover;
+    overflow: hidden;
+}
